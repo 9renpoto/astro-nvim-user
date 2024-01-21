@@ -11,6 +11,7 @@ return {
   -- },
   {
     "wakatime/vim-wakatime",
+    lazy = false
   },
   {
     "simrat39/rust-tools.nvim",
