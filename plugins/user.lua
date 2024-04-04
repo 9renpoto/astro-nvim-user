@@ -11,15 +11,6 @@ return {
   -- },
   {
     "wakatime/vim-wakatime",
-    lazy = false
-  },
-  {
-    "simrat39/rust-tools.nvim",
-    {
-      "williamboman/mason-lspconfig.nvim",
-      opts = {
-        ensure_installed = { "rust_analyzer" },
-      },
-    },
+    lazy = false,
   },
 }
